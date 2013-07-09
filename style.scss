@@ -1,0 +1,67 @@
+// Color variables
+$color-hot: #FF3630;
+$color-cold: #2F22FA;
+$color-neutral: #333;
+
+// Center text mixin
+@mixin text-center {
+	text-align: center;
+}
+
+h1 {
+	@include text-center;
+	font-family: 'Permanent Marker', cursive;	
+	color: $color-neutral;
+	font-size: 6em;
+	margin: 20px auto 20px auto;
+	#hot {
+		color: $color-hot;
+	}
+	#cold {
+		color: $color-cold;
+	}
+}
+		
+p {
+	@include text-center;
+	font-family: arial;
+	color: $color-neutral;
+}
+	    
+#frame {
+	@include text-center;
+	margin: 1.3em auto;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 100%;
+}
+		
+#status {
+	height: 5.5em;
+	width: 5.5em;
+	border-radius: 100%;
+	background-color: $color-neutral;
+	margin: 0 auto;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 5.5em;
+}
+		
+input[type=text] {
+	display: block;
+	width: 100%;
+	max-width: 13.75em;
+	padding: .5em;
+	margin: 1em auto .25em auto;
+	font-size: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+		
+input[type=button] {
+	@include text-center;
+	padding: .5em 0;
+	width: 8.28em;
+	text-transform: uppercase;
+}

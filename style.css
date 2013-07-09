@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #333333;
+  font-size: 6em;
+  margin: 20px auto 20px auto; }
+  h1 #hot {
+    color: #ff3630; }
+  h1 #cold {
+    color: #2f22fa; }
+
+p {
+  text-align: center;
+  font-family: arial;
+  color: #333333; }
+
+#frame {
+  text-align: center;
+  margin: 1.3em auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100%; }
+
+#status {
+  height: 5.5em;
+  width: 5.5em;
+  border-radius: 100%;
+  background-color: #333333;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 5.5em; }
+
+input[type=text] {
+  display: block;
+  width: 100%;
+  max-width: 13.75em;
+  padding: .5em;
+  margin: 1em auto .25em auto;
+  font-size: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+input[type=button] {
+  text-align: center;
+  padding: .5em 0;
+  width: 8.28em;
+  text-transform: uppercase; }
