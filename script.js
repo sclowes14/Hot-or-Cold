@@ -9,6 +9,10 @@ window.onload = function() {
 	var submit = document.getElementById("submit");
   var guess = document.getElementsByTagName("input")[0].value;
   var previousGuess = 25;
+  
+  // Get handle for input field for later clearing
+  var guessElement = document.getElementsByTagName("input")[0];
+
 
   //Changes div #status based on two parameters, color and text.
   function changeStatus(color, text) {
@@ -29,6 +33,9 @@ window.onload = function() {
 			changeStatus("#2F22FA", "colder");
 		}
     previousGuess = guess;
+    
+    // clear input field
+    guessElement.value='';
 	};
 
 	document.getElementsByTagName("input")[0].onkeypress = function(event) {
