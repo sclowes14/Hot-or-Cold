@@ -11,9 +11,11 @@ are getting closer.
 var answer = Math.floor((Math.random() * 100) + 1);
 var guess;
 var attempts = 0;
+var correctGuess = false;
 
-/*while ( guess !== answer ) {
-  change the color and text to warmer or colder
-  add guess to previousGuesses and write to the doc
+
+while ( guess !== answer ) {
+  // change the color and text to warmer or colder
+  // add guess to previousGuesses and write to the doc
   attempts +=1;
-}*/
+}
