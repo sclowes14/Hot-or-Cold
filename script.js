@@ -9,4 +9,11 @@ are getting closer.
 
 // Generates a random number between 1 - 100
 var answer = Math.floor((Math.random() * 100) + 1);
+var guess;
+var attempts = 0;
 
+/*while ( guess !== answer ) {
+  change the color and text to warmer or colder
+  add guess to previousGuesses and write to the doc
+  attempts +=1;
+}*/
