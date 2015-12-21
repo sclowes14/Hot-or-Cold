@@ -18,5 +18,6 @@ var correctGuess = false;
 while ( guess !== answer ) {
   // change the color and text to warmer or colder
   // add guess to previousGuesses and write to the doc
-  attempts +=1;
+  attempts += 1; // add to the # of attempts
+  previousGuesses.push(guess); // add guess to previousGuesses array
 }
