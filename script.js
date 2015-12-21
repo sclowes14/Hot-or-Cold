@@ -11,6 +11,7 @@ are getting closer.
 var answer = Math.floor((Math.random() * 100) + 1);
 var guess;
 var attempts = 0;
+var previousGuesses = [];
 var correctGuess = false;
 
 
