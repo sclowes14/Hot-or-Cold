@@ -14,10 +14,24 @@ var attempts = 0;
 var previousGuesses = [];
 var correctGuess = false;
 
+// Prints an array (previousGuesses) as an ordered list 
+function printList( list ) {
+	var listHTML = "<ol>";
+	// A for loop to index the array and create list items for each value
+	for ( var i = 0; i < list.length; i += 1 ) {
+		listHTML += "<li>" + list[i] + "</li>";
+	}
+	listHTML += "</ol>";
+	document.write( listHTML );
+}
 
 while ( guess !== answer ) {
-  // change the color and text to warmer or colder
-  // add guess to previousGuesses and write to the doc
-  attempts += 1; // add to the # of attempts
-  previousGuesses.push(guess); // add guess to previousGuesses array
+  // Change the color and text to warmer or colder
+  // Add guess to previousGuesses and write to the doc
+  // Add to the # of attempts
+  attempts += 1; 
+  // Add guess to previousGuesses array
+  previousGuesses.push(guess); 
+  // Print previousGuesses to the page
+  printList(previousGuesses);
 }
