@@ -3,20 +3,27 @@
 <head>
 	<meta charset=utf-8 />
 	<title>Hot or Cold</title>
-	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-<body>
-	<h1><span id="hot">Hot</span> or <span id="cold">Cold</span>?</h1>	
-	<p>Guess a number between 1 and 100. Beat the mighty computer if you can...</p>
-  <div id="frame">
-		<div id="status">...</div>
+<body class="flex tan-txt">
+
+	<main class="black-bg">
+		<h1>Hot or Cold?</h1>	
+		<p id="status">Guess a number between 1 and 100.</p>
 		<form action="">
-			<input type="text" placeholder="Guess a number" >
-			<input type="button" id="guess-button" value="guess" >
-			<input type="button" id="reset-button" value="reset">
+			<input type="text" placeholder="Enter your number" >
+			<input type="button" id="guess-button" value="Guess" >
+			<input type="button" id="reset-button" value="Reset">
 		</form>
-	</div>
+	</main>
+	<!-- End of main content -->
+
+	<footer class="dark-grey-bg">
+		<p id="guess-list">Previous Guesses: </p>
+	</footer>
+	<!-- End of footer content -->
+
 <script src="script.js"></script>
 </body>
 </html>
