@@ -8,7 +8,36 @@ grey: rgb(55, 65, 64);
 tan: rgb(217, 203, 158);
 */
 
+html {
+	height: 100%;
+}
+
 body {
+	min-height: 100%;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.pad-1 {
+	padding: 1em;
+}
+
+.pad-2 {
+	padding: 2em;
+}
+
+.rnd {
+	border-radius: 5px;
+}
+
+.roboto {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -24,7 +53,3 @@ body {
 	background-color: rgb(42, 44, 43);
 }
 
-.flex {
-	display: flex;
-	flex-direction: column;
-}
