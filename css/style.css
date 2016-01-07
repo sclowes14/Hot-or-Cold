@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic);
+
 /* 
 Sea Wolf color theme from color.adobe.com 
 black: rgb(30, 30, 32);
@@ -5,6 +7,10 @@ dark-grey: rgb(42, 44, 43);
 grey: rgb(55, 65, 64);
 tan: rgb(217, 203, 158);
 */
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
 .tan-txt {
 	color: rgb(217, 203, 158);
